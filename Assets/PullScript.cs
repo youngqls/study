@@ -5,7 +5,7 @@ using UnityEngine;
 public class PullScript : MonoBehaviour
 {
     public Transform transform;
-    private float apple = 10f;
+    private bool apple = true;
    
     // Start is called before the first frame update
     void Start()
